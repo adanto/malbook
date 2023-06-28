@@ -6,6 +6,7 @@ This is my lobby of malware analysis documentation sites and tips that I usually
 
 - VBinDiff: Quickly check binary differences from a cmd. [link](https://github.com/madsen/vbindiff)
 - Multi Algorithm Hashing creator: Creates a DB of hashes [link](/projects/AntiDissasembly/APIhasher)
+- OleTools: Python tools to analyze doc[x], xls[x], ppt[x], rtf, mht, mhtml, pub and vsd [link](https://github.com/decalage2/oletools)
 
 #### Interesting links
 
@@ -50,9 +51,15 @@ This is my lobby of malware analysis documentation sites and tips that I usually
 
 - [NOP Slide](https://unprotect.it/technique/nop-sled/): [Local Project](https://github.com/adanto/notebook/blob/main/projects/AntiDissasembly/NopSlide/NopSlide/Main.cpp)
 - [ROP Chaining](https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/rop-chaining-return-oriented-programming)
+- [Anti-Analysis RTF \bin](https://www.decalage.info/rtf_tricks#Trick_5:_Binary_Data_Within_the_Hex-encoded_Data): The picture is in binary format. The numeric parameter N is the number of bytes that follow. Unlike all other controls, this control word takes a 32-bit parameter. [link](https://www.biblioscape.com/rtf15_spec.htm)
+
 
 ##### Calling Conventions [wiki](https://en.wikipedia.org/wiki/X86_calling_conventions#x86-64_calling_conventions)
 
 - \__cdecl: Default calling convention for x86 C compilers. Variables pushed on the stack and return on eax. 
 - \__fastcall: Uses registers for the first four arguments (default in x64): 
 - Microsoft x64 calling convention: The first four arguments are placed onto the registers RCX, RDX, R8, R9
+
+##### Magic Numbers [link](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
+Sometimes, when analyzing documents or binary objets, could be interesting to check if any of the mmost common magic numbers used in exploiting are there like for example Compound FIles ([CFBF](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)) using **D0CF11E0A1B11AE1**.
