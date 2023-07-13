@@ -63,3 +63,7 @@ This is my lobby of malware analysis documentation sites and tips that I usually
 ##### Magic Numbers [link](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
 Sometimes, when analyzing documents or binary objets, could be interesting to check if any of the mmost common magic numbers used in exploiting are there like for example Compound FIles ([CFBF](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)) using **D0CF11E0A1B11AE1**.
+
+##### Plugins 
+
+AlphaGolang: Parser of functions, and creates a folder structure that stores all the functions from each library.  [Link](https://github.com/SentineLabs/AlphaGolang)
