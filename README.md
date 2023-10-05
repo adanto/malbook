@@ -67,3 +67,8 @@ Sometimes, when analyzing documents or binary objets, could be interesting to ch
 ##### Plugins 
 
 AlphaGolang: Parser of functions, and creates a folder structure that stores all the functions from each library.  [Link](https://github.com/SentineLabs/AlphaGolang)
+
+##### VMWare tips 
+
+3D Games: Edit the .vmx file and add vmmouse.present = "FALSE" to avoid weird movements ingame
+Stuck at starting the VM: Hardware compatibility back to 16.2
