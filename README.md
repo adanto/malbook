@@ -41,7 +41,7 @@ This is my lobby of malware analysis documentation sites and tips that I usually
 - IMAGE_NT_HEADERS: Represents the PE header format. [link](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-image_nt_headers32)
 - IMAGE_OPTIONAL_HEADER32: Represents the optional header format (part of NT_HEADER STRUCT). [link](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-image_optional_header32)
 - IMAGE_DATA_DIRECTORY: Represents the data directory. [link](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-image_data_directory)
-- IMAGE_EXPORT_DIRECTORY: [link](http://pinvoke.net/default.aspx/Structures.IMAGE_EXPORT_DIRECTORY)
+- IMAGE_EXPORT_DIRECTORY: [link](http://pinvoke.net/default.aspx/Structures.IMAGE_EXPORT_DIRECTORY) [https://en.wikipedia.org/wiki/Win32_Thread_Information_Block](https://en.wikipedia.org/wiki/Win32_Thread_Information_Block)
 - PEB: Contains process information. [link](https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb)
 - PEB_LDR_DATA: Contains information about the loaded modules for the process. [link](https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb_ldr_data)
 - LDR_DATA_TABLE: [link](https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/ntldr/ldr_data_table_entry.htm)
