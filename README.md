@@ -64,6 +64,13 @@ This is my lobby of malware analysis documentation sites and tips that I usually
 
 Sometimes, when analyzing documents or binary objets, could be interesting to check if any of the mmost common magic numbers used in exploiting are there like for example Compound FIles ([CFBF](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)) using **D0CF11E0A1B11AE1**.
 
+- [Magic debug values ](https://en.wikipedia.org/wiki/Magic_number_(programming))
+
 ##### Plugins 
 
 AlphaGolang: Parser of functions, and creates a folder structure that stores all the functions from each library.  [Link](https://github.com/SentineLabs/AlphaGolang)
+
+##### VMWare tips 
+
+3D Games: Edit the .vmx file and add vmmouse.present = "FALSE" to avoid weird movements ingame
+Stuck at starting the VM: Hardware compatibility back to 16.2
